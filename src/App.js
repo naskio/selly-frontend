@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import HEADER_IMAGE from './assets/logo-03.png';
+// import './App.css';
+import MyChatBot from './ChatBot';
+import {Container, Box, Grid} from '@material-ui/core';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Container>
+            <Grid container direction='column'>
+                <Grid item>
+                    <Box>
+                        <Grid container direction='row' alignItems='center' justify='center'>
+                            <img src={HEADER_IMAGE} height='180px'/>
+                        </Grid>
+                    </Box>
+                </Grid>
+                <Grid item>
+                    <MyChatBot/>
+                </Grid>
+            </Grid>
+        </Container>
+    );
 }
 
 export default App;

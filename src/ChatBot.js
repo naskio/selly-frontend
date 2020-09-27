@@ -2,7 +2,9 @@ import React from 'react';
 import ChatBot from 'react-simple-chatbot';
 import {ThemeProvider} from 'styled-components';
 import BOT_AVATAR from './assets/logo-01.svg';
+import USER_AVATAR from './assets/store.png';
 import STEPS from './steps';
+import STEPS_PHONE from './steps_phone_call';
 
 
 const theme = {
@@ -29,8 +31,13 @@ function MyChatBot() {
                     headerTitle={'Selly is here to help you ...'}
                     // hideSubmitButton={true}
                     placeholder='What is on your mind?'
-                    recognitionEnable={true}
                     botAvatar={BOT_AVATAR}
+                    userAvatar={USER_AVATAR}
+                    botDelay={0}
+                    userDelay={0}
+                    customDelay={0}
+                    recognitionEnable={true}
+                    // speechSynthesis={{ enable: true, lang: 'en' }}
                 />
             </ThemeProvider>
         </>

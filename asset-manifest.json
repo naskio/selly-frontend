@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/selly-frontend/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/selly-frontend/static/js/main.691e1487.chunk.js",
+    "main.js.map": "/selly-frontend/static/js/main.691e1487.chunk.js.map",
+    "runtime-main.js": "/selly-frontend/static/js/runtime-main.798cb74e.js",
+    "runtime-main.js.map": "/selly-frontend/static/js/runtime-main.798cb74e.js.map",
+    "static/js/2.81fda503.chunk.js": "/selly-frontend/static/js/2.81fda503.chunk.js",
+    "static/js/2.81fda503.chunk.js.map": "/selly-frontend/static/js/2.81fda503.chunk.js.map",
+    "index.html": "/selly-frontend/index.html",
+    "precache-manifest.22af32e304ce65796ba6d033c6513e9f.js": "/selly-frontend/precache-manifest.22af32e304ce65796ba6d033c6513e9f.js",
+    "service-worker.js": "/selly-frontend/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/selly-frontend/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.81fda503.chunk.js.LICENSE.txt": "/selly-frontend/static/js/2.81fda503.chunk.js.LICENSE.txt",
+    "static/media/logo-01.svg": "/selly-frontend/static/media/logo-01.f0f2d507.svg",
+    "static/media/logo-03.png": "/selly-frontend/static/media/logo-03.702f89f1.png",
+    "static/media/store.png": "/selly-frontend/static/media/store.445f3f75.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.798cb74e.js",
+    "static/js/2.81fda503.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.691e1487.chunk.js"
+  ]
+}
